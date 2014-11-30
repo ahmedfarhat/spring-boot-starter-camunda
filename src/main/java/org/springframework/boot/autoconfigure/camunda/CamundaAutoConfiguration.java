@@ -40,7 +40,7 @@ public class CamundaAutoConfiguration {
 		config.setTransactionManager(beanFactory.getBean(PlatformTransactionManager.class));
 		config.setDatabaseSchemaUpdate(Boolean.TRUE.toString());
 		config.setJobExecutorActivate(false);
-		config.setDeploymentResources(appContext.getResources("classpath:*.bpmn"));
+		config.setDeploymentResources(appContext.getResources("classpath*:*.bpmn"));
 		return config;
 	}
 
