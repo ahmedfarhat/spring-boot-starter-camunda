@@ -1,2 +1,2 @@
-camunda-spring-boot
+camunda-spring-boot-starter
 ===================
