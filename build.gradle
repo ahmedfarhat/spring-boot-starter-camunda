@@ -1,7 +1,7 @@
 buildscript {
     ext {
         springBootVersion = '1.1.9.RELEASE'
-        camundaVersion = "7.2.0"
+        camundaVersion = '7.2.0'
     }
     repositories {
         mavenCentral()
